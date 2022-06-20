@@ -1,2 +1,1 @@
-# fodbold-data
-Datadrevne beslutninger i Fodbold
+# Datadrevne beslutninger i Fodbold
