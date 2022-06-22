@@ -1,0 +1,15 @@
+Denne Expected Goals model er lavet på Wyscout data for Superligaen sæson 21/22 (april 2022). 
+Datasættet har 2666 observationer af 33 variable, som opdeles tilfældigt i 75% træningsdata og 25% testdata. 
+
+Ud af de 33 variable blev følgende varibale udvalgt til modellen: 
+
+Kropsdel: Vi så i vores beskrivende statistik for superligakampe at der er størst sandsynlighed for at skud lavet med hovedet eller andre kropsdele bliver til mål, selvom kun få skud bliver lavet med disse. Vi tror derfor at kropsdel kunne have en mindre betydning for udfaldet af skud. 
+
+Halvleg: Vi har før set at flest skud bliver lavet i anden halvleg, men at sandsynligheden for at score mål faktisk er større i første halvleg. 
+
+Lokation X, Lokation Y, Distance til mål: : Vi antager at jo tættere e man er på målet, jo større er sandsynligheden for at man scorer. 
+
+Hold formation & Modstander hold formation: Gennem vores beskrivende statistik har vi set at det oftest er de samme holdformationer som anvendes. Vi er derfor interesserede i at se om det overhovedet har en betydning for udfaldet af skud. 
+
+Vinkel til mål: Vi antager at jo mindre vinklen til målet er, jo større er sandsynligheden for at score. 
+
